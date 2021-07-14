@@ -20,6 +20,12 @@ public class MainActivity extends AppCompatActivity {
 
         final Button httpsButton = findViewById(R.id.https_button);
         httpsButton.setOnClickListener(v -> launchUrl("https://slash-statuesque-bracket.glitch.me/pwatest/"));
+
+        final Button httpButton2 = findViewById(R.id.http_button2);
+        httpButton2.setOnClickListener(v -> launchUrl("http://elite-small-find.glitch.me/pwatest/"));
+
+        final Button httpsButton2 = findViewById(R.id.https_button2);
+        httpsButton2.setOnClickListener(v -> launchUrl("https://elite-small-find.glitch.me/pwatest/"));
     }
 
     private void launchUrl(String url) {
